@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="score-keeper.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- header -->
+        <div class="header">
+            <h1>LET'S PLAY GAME</h1>
+        </div>
+
+        <!-- middle-field -->
+        <div class="img">
+            <img src="https://media.istockphoto.com/vectors/table-tennis-ping-pong-woman-female-girl-athlete-play-sport-vector-id514992044" alt="pinpon-game-image">
+        </div>
+        <div class="score">
+            <h3>Scores</h3>
+            <div class="score-view">
+                <span class="span-player1">0</span>
+                to
+                <span class="span-player2">0</span>
+            </div>
+            <div class="score-counter">
+                <label for="win">Score to Win</label>
+                <input type="number" name="win" id="win" min="1" value="2">
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="player1">
+                <button class="player1-button btn">
+                    + 1 for Player 1
+                </button>
+            </div>
+            <div class="player2">
+                <button class="player2-button btn">
+                    + 1 for Player 2
+                </button>
+            </div>
+            <div class="reset">
+                <button class="reset-button btn">
+                   RESET
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="score-keeper.js"></script>
+</body>
+</html>
