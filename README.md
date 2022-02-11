@@ -5,5 +5,5 @@ You can copy the whole link for any project and paste search bar due to make the
 Enjoy coding...
 #
 
-1 --> JS Dom-EventListener --> https://ersenozturk.github.io/Javascript-Exercises/JS Dom-EventListener/
+1 --> JS Dom-EventListener --> https://ersenozturk.github.io/Javascript-Exercises/JS Dom-EventListener/  
 2 --> ping-pong-game --> https://ersenozturk.github.io/Javascript-Exercises/ping-pong-game/
