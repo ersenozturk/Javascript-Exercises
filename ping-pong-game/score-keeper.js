@@ -22,8 +22,8 @@ function addOneNumber1(e) {
     spanPlayer1.innerHTML = counter1;
 
     if (scoreToWin.value == spanPlayer1.innerHTML) {
-        player1Button.setAttribute('disabled',false)
-        player2Button.setAttribute('disabled',false)
+        player1Button.disabled = true
+        player2Button.disabled = true
 
         spanPlayer1.style.color ='green'
         spanPlayer2.style.color ='red'
@@ -35,8 +35,8 @@ function addOneNumber2(e) {
     spanPlayer2.innerHTML = counter2;
 
     if (scoreToWin.value == spanPlayer2.innerHTML) {
-        player1Button.setAttribute('disabled',false)
-        player2Button.setAttribute('disabled',false)
+        player1Button.disabled = true
+        player2Button.disabled = true
 
         spanPlayer1.style.color ='red'
         spanPlayer2.style.color ='green'
@@ -47,12 +47,16 @@ function addOneNumber2(e) {
 
 // reset
 resetButton.addEventListener('click',()=>{
+    counter1 = 0;
+    counter2 = 0;
 
     spanPlayer1.innerHTML = 0
     spanPlayer2.innerHTML = 0
 
-    // player1Button.removeAttribute('disabled')
-    // player2Button.removeAttribute('disabled')
+    player1Button.disabled = false
+    player2Button.disabled = false
+
+    spanPlayer1.style.color ='black'
+    spanPlayer2.style.color ='black'
 })
 
-//
