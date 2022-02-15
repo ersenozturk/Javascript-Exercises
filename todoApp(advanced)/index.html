@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3780ff385.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Todo App</header>
+        <div class="input-field">
+            <input id="input-box" type="text" placeholder="add your new todo">
+            <button id="add-btn"><i class="fas fa-plus"></i> </button>
+        </div>
+
+        <ul class="todo-list">
+            <!-- data will come from local storage -->
+        </ul>
+
+        <footer>
+            <span>you have <span class="pending-number">4</span> pending task</span>
+            <button id="delete-all">DELETE ALL</button>
+        </footer>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
