@@ -7,4 +7,4 @@ Enjoy coding...
 
 1 --> JS Dom-EventListener --> https://ersenozturk.github.io/Javascript-Exercises/add-delete-item(basic)/  
 2 --> ping-pong-game --> https://ersenozturk.github.io/Javascript-Exercises/ping-pong-game/  
-3 --> add-delete-item(advanced) --> https://ersenozturk.github.io/Javascript-Exercises/add-delete-item(advanced)/
+3 --> add-delete-item(advanced) --> https://ersenozturk.github.io/Javascript-Exercises/add-delete-item(intermediate)/
