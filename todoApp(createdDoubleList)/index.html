@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3780ff385.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>Todo App</header>
+        <div class="input-field">
+            <button id="add-btn1"><i class="fas fa-plus"></i> </button>
+            <input id="input-box" type="text" placeholder="add your new todo">
+            <button id="add-btn2"><i class="fas fa-plus"></i> </button>
+        </div>
+
+        <div class="arrange">
+            <div class="arrange-left">
+                <ul class="todo-list">
+                    <!-- data will come from local storage -->
+                </ul>
+                
+                <footer>
+                    <span>you have <span class="pending-number1">0</span> pending task</span>
+                    <button id="delete-all1">DELETE ALL</button>
+                </footer>
+            </div>
+
+    
+            <div class="arrange-right">
+                <ul class="todo-list2">
+                    <!-- data will come from local storage -->
+                </ul>
+
+                <footer>
+                    <span>you have <span class="pending-number2">0</span> pending task</span>
+                    <button id="delete-all2">DELETE ALL</button>
+                </footer>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
