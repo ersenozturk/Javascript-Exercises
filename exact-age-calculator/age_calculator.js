@@ -32,7 +32,7 @@ birthday.addEventListener('change',function ageCalc(e) {
     let birthDay = new Date(birthday.value)
 
     if (birthDay > today ) {
-        birthDay = ''
+        alert('your birthday cannot be on a date later than this day')
     }else{
         let ageSecond = today.getSeconds() - birthDay.getSeconds();
         let ageMinute = today.getMinutes() - birthDay.getMinutes();
@@ -45,7 +45,7 @@ birthday.addEventListener('change',function ageCalc(e) {
 
     if (ageSecond<0) { ageMinute--; ageSecond += 60}
     if (ageMinute<0) { ageHour--; ageMinute += 60}
-    if (ageHour<0) { ageDay--; ageHour += 24}
+    if (ageHour<0) { ageDate--; ageHour += 24}
     if (ageDate<0) { 
     ageMonth--;
     let currentMonth = new Date().getMonth() + 1
