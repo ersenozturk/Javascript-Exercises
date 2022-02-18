@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://picsum.photos/id/667/600/400");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: black;
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 30px;
+    }
+
+div {
+    margin: 30px;  
+}
+
+
+
+
