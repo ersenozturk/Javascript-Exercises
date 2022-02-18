@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="https://cdn.pixabay.com/photo/2015/10/31/12/00/question-1015308_960_720.jpg" alt="">
+            <h1>Number Guessing Game</h1>
+        </div>
+
+        <div class="between">
+            <p class="enter-number">
+                (Enter a number between <span>1</span> -  <span>100</span>)
+            </p>
+        </div>
+
+        <div class="guess-number">
+            <input type="number" name="num" id="num" max="100" min="1">
+            <button class="up-button" type="submit">Guess</button>
+        </div>
+
+        <div class="make-guess">
+            <p class="m-guess">
+                Make a guess
+            </p>
+        </div>
+
+        <div class="remain">
+            <span>Remaining guesses:  </span>
+            <span>10</span>
+        </div>
+
+        <div class="diff">
+            <input type="radio" name="name" id="easy" checked="checked">
+            <label for="easy">Easy</label>
+
+            <input type="radio" name="name" id="hard" >
+            <label for="hard">Hard</label>
+        </div>
+
+        <div class="play">
+            <button class="down-button"  type="submit">Play Again</button>
+        </div>
+
+        <div class="footer">
+            <p>Prepared by <a href="https://www.linkedin.com/in/ozturkersen/" target="_blank">ersenozturk</a> </p>
+            <p>Copyright © 2022</p>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
