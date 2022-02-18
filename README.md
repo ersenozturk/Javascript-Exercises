@@ -10,4 +10,6 @@ Enjoy coding...
 3 --> add-delete-item(intermediate) --> https://ersenozturk.github.io/Javascript-Exercises/add-delete-item(intermediate)/  
 4 --> todoApp(advanced) --> https://ersenozturk.github.io/Javascript-Exercises/todoApp(advanced)/  
 5 --> todoApp(createdDoubleList) --> https://ersenozturk.github.io/Javascript-Exercises/todoApp(createdDoubleList)/  
-6 --> number-guessing-game --> https://ersenozturk.github.io/Javascript-Exercises/number-guessing-game/
+6 --> number-guessing-game --> https://ersenozturk.github.io/Javascript-Exercises/number-guessing-game/  
+7 --> exact-age-calculator --> https://ersenozturk.github.io/Javascript-Exercises/exact-age-calculator/
+8 --> spinner --> https://ersenozturk.github.io/Javascript-Exercises/spinner/
