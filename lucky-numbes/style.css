@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#BB6464, #CDB699, #C3DBD9);
+    background-color: #cccccc;
+    background-repeat: no-repeat;    
+}
+
+.numbers {
+    width: 490px;
+    margin: auto;
+}
+
+.header {
+    width: 50%;
+    margin: auto;
+}
+
+input {
+    display: block ;
+    padding: 30px 90px;
+    border: none;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#btn-lucky-numbers:hover {
+    color: #9C0F48;
+    background-color: #D67D3E;
+}
+
+#try-again:hover {
+    background-color: #9C0F48;
+    color: #D67D3E;
+}
+
+#btn-lucky-numbers{
+    background-color: #470D21;
+    color: #ffff;
+}
+
+#try-again {
+    background-color: #470D21;
+    color: #ffff;
+}
+
+.line {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+label{
+    display: block ;
+    padding: 30px 90px;
+    border: none;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
