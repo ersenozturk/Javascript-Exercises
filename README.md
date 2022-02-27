@@ -16,3 +16,4 @@ Enjoy coding...
 7 --> exact-age-calculator --> https://ersenozturk.github.io/Javascript-Exercises/exact-age-calculator/  
 8 --> spinner --> https://ersenozturk.github.io/Javascript-Exercises/spinner/  
 9 --> lucky-numbes --> https://ersenozturk.github.io/Javascript-Exercises/lucky-numbes/  
+10 --> checkout -Js --> https://ersenozturk.github.io/Javascript-Exercises/checkout-Js/  
