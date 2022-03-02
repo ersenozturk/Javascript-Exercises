@@ -17,3 +17,4 @@ Enjoy coding...
 8 --> spinner --> https://ersenozturk.github.io/Javascript-Exercises/spinner/  
 9 --> lucky-numbes --> https://ersenozturk.github.io/Javascript-Exercises/lucky-numbes/  
 10 --> checkout -Js --> https://ersenozturk.github.io/Javascript-Exercises/checkout-Js/  
+11 --> Check-Daily-Routine --> https://ersenozturk.github.io/Javascript-Exercises/Check-Daily-Routine/
