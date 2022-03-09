@@ -1,0 +1,58 @@
+[
+    {
+        "firstName" : "Ali",
+        "lastName" : "KILIC",
+        "age" : 43,
+        "statu" : "Headmaster",
+        "location" : "Buca"
+    },
+    {
+        "firstName" : "Veli",
+        "lastName" : "CINGOZ",
+        "age" : 23,
+        "statu" : "Teacher",
+        "location" : "Konak"
+    },
+    {
+        "firstName" : "Sercan",
+        "lastName" : "AYKIRI",
+        "age" : 13,
+        "statu" : "Student",
+        "location" : "Karsiyaka"
+    },
+    {
+        "firstName" : "Selin",
+        "lastName" : "AY",
+        "age" : 33,
+        "statu" : "Student",
+        "location" : "Balcova"
+    },
+    {
+        "firstName" : "Bora",
+        "lastName" : "KULAKSIZ",
+        "age" : 43,
+        "statu" : "Headmaster",
+        "location" : "Buca"
+    },
+    {
+        "firstName" : "Nagehan",
+        "lastName" : "KAPICI",
+        "age" : 23,
+        "statu" : "Teacher",
+        "location" : "Konak"
+    },
+    {
+        "firstName" : "Veli",
+        "lastName" : "SONSUZ",
+        "age" : 13,
+        "statu" : "Student",
+        "location" : "Karsiyaka"
+    },
+    {
+        "firstName" : "Selin",
+        "lastName" : "DAG",
+        "age" : 33,
+        "statu" : "Student",
+        "location" : "Narlıdere"
+    }
+]
