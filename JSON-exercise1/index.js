@@ -32,7 +32,7 @@ function loadPersonnel() {
                 });
                 personnelTable.innerHTML = html
             } else {
-                alert(`Error ${req.status}`)
+                alert(`Error ${this.status}`)
             }
         }
         req.send()
