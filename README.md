@@ -22,4 +22,5 @@ Enjoy coding...
 13 --> JSON-exercise1 --> https://ersenozturk.github.io/Javascript-Exercises/JSON-exercise1/  
 14 --> questionApp --> https://ersenozturk.github.io/Javascript-Exercises/questionApp/  
 15 --> profileFinderFromApi --> https://ersenozturk.github.io/Javascript-Exercises/profileFinderFromApi/  
-16 --> registerUserPage-axios-exercise --> https://ersenozturk.github.io/Javascript-Exercises/registerUserPage-axios-exercise/
+16 --> registerUserPage-axios-exercise --> https://ersenozturk.github.io/Javascript-Exercises/registerUserPage-axios-exercise/  
+17 --> weather-app --> https://ersenozturk.github.io/Javascript-Exercises/weather-app/
