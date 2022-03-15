@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/aes.js"></script>
+  <script src="js/Extentions.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <section class="top-banner">
+    <div class="container">
+      <center>
+        <img src="https://w7.pngwing.com/pngs/816/152/png-transparent-weather-forecasting-computer-icons-weather-angle-text-weather-forecasting-thumbnail.png" alt="Bank logo" class="nav__logo"
+          id="logo"/>
+          <h1 class="heading">
+            Weather App</h1>
+      </center>
+
+      <form>
+        <input type="text" placeholder="Search for a city" autofocus>
+        <button type="submit">SEARCH</button>
+        <span class="msg"></span>
+      </form>
+
+    </div>
+  </section>
+
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities">
+      </ul>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="container">
+      <small>
+        <a href="https://www.linkedin.com/in/ozturkersen/" target="_blank">Coded by <span>❤ </span>ersenozturk</a>
+      </small>
+    </div>
+  </footer>
+  
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
