@@ -2,6 +2,10 @@
 ## Description
 Project aims to display current weather data of searched city around the world with fetching Weather Api data.
 
+##Link
+
+Please visit my project page via --> https://ersenozturk.github.io/Javascript-Exercises/weather-app/
+
 
    
 ## Statement
