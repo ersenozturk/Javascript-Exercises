@@ -24,4 +24,4 @@ Enjoy coding...
 15 --> profileFinderFromApi --> https://ersenozturk.github.io/Javascript-Exercises/profileFinderFromApi/  
 16 --> registerUserPage-axios-exercise --> https://ersenozturk.github.io/Javascript-Exercises/registerUserPage-axios-exercise/  
 17 --> weather-app --> https://ersenozturk.github.io/Javascript-Exercises/weather-app/ 
-18 --> kredi-hesaplama --> https://kredi-hesapla.netlify.app/ 
+18 --> kredi-hesaplama --> https://kredi-hesapla.netlify.app/  
