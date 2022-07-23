@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>35Digital</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h2 id="ask">
+          Kullanıcı arayüzü oluşturmak için en çok tercih ettiğiniz JavaScript
+          kütüphanesi hangisidir?
+        </h2>
+
+        <!--! before cohice -->
+        <ul id="question">
+          <li id="listOne" class="list">React.js</li>
+          <li id="listTwo" class="list">Vue.js</li>
+          <li id="listThree" class="list">Angular.js</li>
+        </ul>
+
+        <!--! after cohice -->
+        <ul id="answer">
+          <div class="outLi">
+            <li class="list2">
+              <p>React.js<span class="isIcon" style="display: none;">&#9745</span></p> 
+              <div class="innerLi">%<span class="showPercentage"></span></div>
+            </li>
+          </div>
+          <div class="outLi">
+            <li class="list2">
+                <p>Vue.js<span class="isIcon" style="display: none;">&#9745</span></p> 
+              <div class="innerLi">%<span class="showPercentage"></span></div>
+            </li>
+          </div>
+          <div class="outLi">
+            <li class="list2">
+                <p>Angular.js<span class="isIcon" style="display: none;">&#9745</span></p> 
+              <div class="innerLi">%<span class="showPercentage"></span></div>
+            </li>
+          </div>
+          <div class="idDiv">
+            <button id="btn">Tekrar Ankate Katıl</button>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
