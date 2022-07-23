@@ -91,11 +91,11 @@
   background-color: #CFD9DE;
 }
 
-.list2 p {
+.list2 p,.innerLi, .showPercentage  {
   background-color: #CFD9DE;
-  /* background-color: red; */
-  /* width: 50%; */
 }
+
+
 .isIcon{
   background-color: #CFD9DE;
   margin-left: 2px;
