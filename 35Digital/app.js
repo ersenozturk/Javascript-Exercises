@@ -80,3 +80,20 @@ btn.addEventListener("click", () => {
   testBool = true;
   toggle();
 });
+
+
+//!-----Range Slider-------------------
+const slider = document.getElementById('slider')
+const output = document.querySelector('.output')
+
+output.innerHTML = slider.value;
+
+slider.addEventListener('input',()=>{
+  output.innerHTML = slider.value
+  output.style.visibility='visible'
+  setTimeout(() => {
+    output.style.visibility = 'hidden'
+  }, 2000);
+})
+
+

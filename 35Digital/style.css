@@ -10,6 +10,7 @@
 
 .wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -21,8 +22,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 
+/*! survey container */
 #ask{
     font-size: 15px;
     font-family: "Roboto", sans-serif;
@@ -155,3 +158,29 @@
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+
+
+/*! Range Slider Container*/
+
+.container h2 {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.inputDiv{
+  display: flex;
+}
+
+#slider{
+  margin: 0 10px;
+}
+.output{
+  height: 20px;
+  visibility: hidden;
+}
+
+
+
