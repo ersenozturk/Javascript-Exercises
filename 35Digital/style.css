@@ -37,6 +37,8 @@
   align-items: center;
   list-style: none;
   text-align: center;
+  height: 200px;
+
 }
 
 #question .list {
@@ -73,6 +75,8 @@
   align-items: center;
   list-style: none;
   display: none;
+  height: 200px;
+
 
 }
 
