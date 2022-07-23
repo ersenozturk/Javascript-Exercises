@@ -25,3 +25,4 @@ Enjoy coding...
 16 --> registerUserPage-axios-exercise --> https://ersenozturk.github.io/Javascript-Exercises/registerUserPage-axios-exercise/  
 17 --> weather-app --> https://ersenozturk.github.io/Javascript-Exercises/weather-app/  
 18 --> kredi-hesaplama --> https://kredi-hesapla.netlify.app/  
+19 --> BasicSurvey and RangeSlider --> https://ersenozturk.github.io/Javascript-Exercises/35Digital/  
