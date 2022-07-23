@@ -4,11 +4,13 @@ const listOne = document.getElementById("listOne");
 const listTwo = document.getElementById("listTwo");
 const listThree = document.getElementById("listThree");
 const list = document.querySelectorAll(".list");
+const askTrue = document.querySelector('.askTrue')
 
 const answer = document.getElementById("answer");
 const btn = document.querySelector("#btn");
 const showPercentage = document.querySelectorAll(".showPercentage");
 const isIcon = document.querySelectorAll(".isIcon");
+const askFalse = document.querySelector('.askFalse')
 
 //! global variables
 let testBool = true;
@@ -22,9 +24,14 @@ function toggle() {
   if (testBool == false) {
     question.style.display = "none";
     answer.style.display = "block";
+    askFalse.style.display = 'block'
+    askTrue.style.display = 'none'
+
   } else if (testBool == true) {
     question.style.display = "block";
     answer.style.display = "none";
+    askFalse.style.display = 'none'
+    askTrue.style.display = 'block'
   }
 }
 const arrangePercentage = () => {
@@ -51,11 +58,6 @@ list.forEach((each) => {
       isIcon[0].style.display = "inline-block";
       isIcon[1].style.display = "none";
       isIcon[2].style.display = "none";
-      if (voteReact > 80) {
-        
-      } else {
-        
-      }
 
       arrangePercentage();
     } else if (e.target.id == "listTwo") {

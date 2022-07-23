@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: #E2DCC8;
   color: #0F1419;
 }
 
@@ -27,8 +27,14 @@
     font-size: 15px;
     font-family: "Roboto", sans-serif;
     margin-bottom: 10px;
+    font-weight: 500;
 }
+
+
 /*! before choice */
+.askFalse {
+  display: none;
+}
 
 #question {
   display: flex;
