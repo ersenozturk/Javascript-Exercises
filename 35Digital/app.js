@@ -24,14 +24,14 @@ function toggle() {
   if (testBool == false) {
     question.style.display = "none";
     answer.style.display = "block";
-    askFalse.style.display = 'block'
-    askTrue.style.display = 'none'
+    askFalse.style.visibility = 'visible'
+    askTrue.style.visibility = 'hidden'
 
   } else if (testBool == true) {
     question.style.display = "block";
     answer.style.display = "none";
-    askFalse.style.display = 'none'
-    askTrue.style.display = 'block'
+    askFalse.style.visibility = 'hidden'
+    askTrue.style.visibility = 'visible'
   }
 }
 const arrangePercentage = () => {

@@ -22,6 +22,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 200px;
 }
 
 /*! survey container */
@@ -45,7 +46,7 @@
   align-items: center;
   list-style: none;
   text-align: center;
-  height: 200px;
+  height: 100%;
 
 }
 
@@ -161,86 +162,7 @@
 
 
 /*! Range Slider Container*/
-/* .range{
-  display: grid;
-  height: 80px;
-  text-align: center;
-  place-items: center;
-  border-radius: 10px;
-}
-.range .sliderValue{
-  position: relative;
-  width: 100%;
-}
-.range .sliderValue span{
-  position: absolute;
-  height: 45px;
-  width: 45px;
-  font-weight: 500;
-  top: -40px;
-  transform: translateX(-50%);
-  line-height: 55px;
-  z-index: 2;
-}
 
-.range .sliderValue span::after{
-  position: absolute;
-  content: '';
-
-  height: 45px;
-  width: 45px;
-  background-color: orange;
-  transform: translateX(-50%) rotate(45deg);
-  border: 3px solid #fff;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-  z-index: -1;
-  left: 50%;
-}
-
-.range .field{
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-
-}
-
-.range .field .value{
-  position: absolute;
-  font-size: 18px;
-  font-weight: 600;
-  color: blue;
-}
-
-.range .field .value .left{
-  left: -22px;
-}
-.range .field .value .right{
-  right: -43px;
-}
-.range .field input{
-  -webkit-appearance: none;
-  height: 3px;
-  width: 100px;
-  background-color: red;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-}
-
-.range .field input::-webkit-slider-thumb{
-  -webkit-appearance: none;
-  height: 20px;
-  width: 20px;
-  background-color: purple;
-  border-radius: 50%;
-  border: 1px solid #fff;
-  cursor: pointer;
-
-} */
 .container h2 {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
