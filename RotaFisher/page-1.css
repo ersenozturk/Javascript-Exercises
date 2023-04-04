@@ -1,0 +1,1386 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+/*! navbar start */
+
+#rotaFisherNavbar .me-auto {
+  margin-right: 0 !important;
+}
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    justify-content: end;
+  }
+}
+.navbar {
+  padding: 10px 5%;
+}
+.navbar .logoInner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.navbar .logoInner .logoImg1 {
+  width: 85px;
+}
+.navbar .logoInner .logoImg2 {
+  width: 100px;
+}
+.navbar .nav-link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #021527 !important;
+}
+.dropdown-item-inner {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: start;
+}
+.dropdown-item-imgParent {
+  width: 94px;
+  height: 54px;
+}
+.dropdown-item-imgParent img {
+  width: 100%;
+}
+.dropdown-item-p {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #0a0a0a;
+  margin-bottom: 0 !important;
+  transition: all 0.25s ease-in-out;
+}
+.dropdown-menu[data-bs-popper] {
+  margin-top: 1rem;
+}
+.navbar .dropdown-item:hover {
+  background: #fff;
+}
+.navbar .dropdown-item:hover .dropdown-item-p {
+  color: #bfa888;
+}
+.dropdown-menu {
+  border: 1px solid #f4f2ed;
+  box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+@media only screen and (max-width: 960px) {
+  .dropdown-menu {
+    box-shadow: none;
+    margin-bottom: 20px;
+  }
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+/*! navbar end */
+
+/*! banner start */
+.banner {
+  height: 800px;
+  background-image: url("/img//banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-wrapper {
+  max-width: 1366px;
+  margin: auto;
+}
+
+.banner-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.bannervektor-img-div {
+  position: absolute;
+  top: 135px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bannerTitle {
+  display: flex;
+  flex-direction: column;
+  height: 238px;
+
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 119px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 336px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 831px;
+}
+
+.bannerText {
+  position: absolute;
+  width: 786px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 612px;
+}
+.bannerText p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 960px) {
+  .banner {
+    height: 488.59px;
+  }
+  .bannerTitle {
+    font-size: 62px;
+    line-height: 73px;
+    top: 205.21px;
+    width: 100%;
+  }
+  .bannervektor-img-div {
+    display: none;
+  }
+  .bannerText {
+    top: 374px;
+    width: 90%;
+  }
+  .bannerText p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner {
+    height: 493px;
+    background-position-x: right;
+  }
+  .bannerTitle {
+    font-size: 50px;
+    line-height: 58px;
+    top: 206px;
+  }
+
+  .bannerText {
+    top: 346px;
+  }
+  .bannerText p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+/*! banner end */
+
+/*! nelerBulacaksinizWrapper start */
+.nelerBulacaksinizWrapper {
+  position: relative;
+  height: 930px;
+  background: #ffffff;
+}
+.helm-parent {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 673px;
+  height: 673px;
+}
+.nelerBulacaksiniz {
+  position: absolute;
+  top: 176px;
+  left: 15%;
+  z-index: 1;
+}
+.nelerBulacaksiniz h2 {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #004481;
+  margin-bottom: 62px;
+}
+.nelerBulacaksiniz li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0a0a0a;
+  padding: 9px 0;
+}
+
+.yat-parent {
+  position: absolute;
+  right: 0px;
+  top: 248px;
+}
+
+@media only screen and (max-width: 960px) {
+  .nelerBulacaksinizWrapper {
+    height: 930px;
+  }
+  .helm-parent {
+    width: 513px;
+    height: 513px;
+  }
+  .nelerBulacaksiniz {
+    top: 85px;
+    left: 5%;
+  }
+  .nelerBulacaksiniz h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .nelerBulacaksiniz li {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .yat-parent {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nelerBulacaksinizWrapper {
+    height: 844px;
+  }
+  .helm-parent {
+    width: 373px;
+    height: 373px;
+  }
+  .nelerBulacaksiniz {
+    top: 63px;
+  }
+  .nelerBulacaksiniz h2 {
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+  .nelerBulacaksiniz li {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 0;
+  }
+
+  .yat-parent {
+    bottom: 67px;
+    top: auto;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .helm-parent {
+    width: 303px;
+    height: 303px;
+  }
+}
+/*! nelerBulacaksinizWrapper end */
+/*! sularin üstünde start */
+.sularinWrapper {
+  position: relative;
+  height: 805px;
+
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 46%, rgba(0, 0, 0, 0.4) 77.29%), linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/img//sularin-bg.png); */
+  background-image: url(/img//sularin-bg.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sun-wave-parent {
+  position: absolute;
+  top: 87px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 146.17px;
+  height: 128px;
+}
+.sularinTextParent {
+  position: absolute;
+  top: 245px;
+  width: 100%;
+}
+.sularinText {
+  display: flex;
+  justify-content: center;
+}
+.sularinText p {
+  width: 900px;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 104px;
+  line-height: 103px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.waveGroup {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+.waveGroup img {
+  height: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+  .sularinWrapper {
+    height: 491.49px;
+  }
+  .sun-wave-parent {
+    height: 78px;
+    width: 89px;
+    top: 53px;
+  }
+  .sularinTextParent {
+    top: 149.58px;
+  }
+
+  .sularinText p {
+    font-size: 62px;
+    line-height: 73px;
+    width: 70%;
+  }
+  .waveGroup {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sularinWrapper {
+    height: 576px;
+  }
+  .sun-wave-parent {
+    top: 72px;
+  }
+  .sularinTextParent {
+    top: 222px;
+  }
+
+  .sularinText p {
+    width: 90%;
+    font-size: 50px;
+    line-height: 58px;
+  }
+  .waveGroup {
+    /* display: none; */
+  }
+}
+/*! sularin üstünde end */
+
+/*! yat modellerimiz start  */
+.yatModellerimizWrapper {
+  position: relative;
+  height: 371px;
+
+  background: #f4f2ed;
+  z-index: -3;
+}
+.kementParent {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 352px;
+  width: 339px;
+  top: -40px;
+  z-index: -2;
+}
+.kementParent img {
+  width: 100%;
+}
+.yatModellerimizWrapper h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 176px;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #004481;
+}
+.yatModellerimizWrapper h3 {
+  position: absolute;
+  top: 237px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+@media only screen and (max-width: 960px) {
+  .yatModellerimizWrapper {
+    position: relative;
+    height: 262px;
+    background: #f4f2ed;
+    z-index: -3;
+  }
+  .kementParent {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 214px;
+    width: 206px;
+    top: -24px;
+    z-index: -2;
+  }
+  .kementParent img {
+    width: 100%;
+  }
+  .yatModellerimizWrapper h2 {
+    top: 123px;
+    width: 100%;
+    text-align: center;
+  }
+  .yatModellerimizWrapper h3 {
+    top: 176px;
+    font-size: 22px;
+    line-height: 27px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* -- */
+.allYatModels {
+  background: #f4f2ed;
+  padding-bottom: 120px;
+}
+
+.allYatModels button {
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  max-height: 401px;
+  transition: all .25s ease-in-out;
+}
+.allYatModels button:hover {
+  border: 12px solid #BFA888;
+}
+.yatModelCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  gap: 22px;
+  transition: all .25s ease-in-out;
+
+}
+
+.yatModelCard p {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 0rem !important;
+  color: #0a0a0a;
+  transition: all .25s ease-in-out;
+
+}
+.yatModelOmgParent img {
+  width: 100%;
+  transition: all .25s ease-in-out;
+
+}
+@media only screen and (max-width: 960px) {
+  .yatModelCard {
+    padding: 14px;
+    gap: 13px;
+  }
+
+  .yatModelCard p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+/* ---swiper-- */
+.swiper {
+  max-width: 1366px;
+  padding: 0 30px;
+  margin: auto;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---offcanvas--- */
+.offcanvas-body{
+  padding: 1rem 1.5rem;
+}
+.offcanvas-body h2 {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #004481;
+}
+.offcanvas-body h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #021527;
+  margin: 22px 0 18px;
+}
+.offcanvas-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+.offcanvas-body li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #021527;
+}
+.offcanvas-img-parent {
+  width: 257px;
+  height: 149px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.offcanvas-img-parent img {
+  width: 100%;
+}
+.offcanvas-body small {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+
+  color: #021527;
+}
+.offcanvas-body p {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  color: #004481;
+}
+.offcanvas-body button {
+  width: 100%;
+  height: 59px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #021527;
+  padding: 8px 0px 8px 8px;
+
+  border: 1px solid #0a0a0a;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+/*! yat modellerimiz end  */
+
+/*! herkese yetecek start */
+.herkeseYatecek {
+  position: relative;
+  height: 911px;
+
+  background-image: url(/img//herkeseYetecek.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sun-wave2-parent {
+  position: absolute;
+  top: 131px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 127px;
+  width: 171px;
+}
+.herkeseYatecekTextParent {
+  position: absolute;
+  top: 463px;
+  width: 100%;
+}
+.herkeseYatecekText {
+  display: flex;
+  justify-content: center;
+}
+.herkeseYatecekText p {
+  width: 800px;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 104px;
+  line-height: 103px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 960px) {
+  .herkeseYatecek {
+    height: 556px;
+  }
+  .sun-wave2-parent {
+    height: 77px;
+    width: 104px;
+    top: 68px;
+  }
+  .herkeseYatecekTextParent {
+    top: 275px;
+  }
+
+  .herkeseYatecekText p {
+    width: 62%;
+    font-size: 62px;
+    line-height: 73px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .herkeseYatecekTextParent {
+    top: 333px;
+  }
+
+  .herkeseYatecekText p {
+    font-size: 50px;
+    line-height: 58px;
+    width: 90%;
+  }
+}
+/*! herkese yetecek end */
+
+/*! iç mekan start */
+.icMekanWrapper {
+  height: 1815px;
+  position: relative;
+  top: -23px;
+}
+
+.icMekanTopImgParent {
+  position: absolute;
+  height: 482px;
+  width: 482px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0px;
+  z-index: -1;
+}
+
+.icMekanWrapper h2 {
+  position: absolute;
+  width: 141px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 122px;
+
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #004481;
+}
+
+.icMekanGallery {
+  position: absolute;
+  width: 98%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 271px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 13px;
+}
+.icMekanDoubleImgDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 13px;
+  margin: 13px 0;
+}
+
+.icMekanGallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.standartDonanim {
+  padding: 20px;
+}
+.standartDonanim p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.standartDonanimUL-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.standartDonanimUL-parent li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  color: #0a0a0a;
+}
+.im-0 {
+  height: 1178px;
+}
+.im-1 {
+  height: 238px;
+}
+
+.im-5 {
+  height: 388px;
+}
+.im-2 {
+  height: 238px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cipaFenerli {
+    font-size: 10px !important;
+  }
+  .standartDonanim {
+    padding: 20px 0;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .icMekanWrapper {
+    height: 1108.13px;
+    top: -14.04px;
+  }
+
+  .icMekanTopImgParent {
+    height: 294px;
+    width: 294px;
+  }
+
+  .icMekanWrapper h2 {
+    top: 74.49px;
+  }
+
+  .icMekanGallery {
+    top: 179px;
+  }
+
+  .standartDonanim {
+    padding: 20px 0;
+  }
+  .standartDonanim p {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .standartDonanimUL-parent li {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 17px;
+  }
+  .cipaFenerli {
+    font-size: 8px;
+  }
+  .im-0 {
+    height: 719.22px;
+  }
+  .im-1 {
+    height: 145.31px;
+  }
+
+  .im-5 {
+    height: 236.89px;
+  }
+  .im-2 {
+    height: 145.31px;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .standartDonanimUL-parent ul {
+    padding-left: 1rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .icMekanWrapper {
+    height: 2000px;
+  }
+
+  .icMekanTopImgParent {
+    width: 330px;
+    height: 330px;
+  }
+
+  .icMekanGallery {
+    grid-template-columns: 1fr;
+    gap: 0;
+    width: 95%;
+  }
+
+  .standartDonanim p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .standartDonanimUL-parent ul {
+    padding-left: 2rem !important;
+  }
+  .standartDonanimUL-parent ul:first-child {
+    margin-bottom: 0px;
+  }
+  .standartDonanimUL-parent li {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .cipaFenerli {
+    font-size: 16px !important;
+    line-height: 28px !important;
+  }
+  .im-0 {
+    height: 628.01px;
+  }
+  .im-1 {
+    height: 126.88px;
+  }
+
+  .im-5 {
+    height: 207.07px;
+  }
+  .im-2 {
+    height: 127.02px;
+  }
+}
+@media only screen and (max-width: 638px) {
+  .icMekanWrapper {
+    height: 2588px;
+  }
+}
+/*! iç mekan end */
+
+/*! swim Man Wrapper start */
+.swimManWrapper {
+  height: 800px;
+  position: relative;
+  background-image: url(/img//swim-man-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swimParent {
+  position: absolute;
+  top: 134px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 177px;
+  height: 127px;
+}
+.swimParent img {
+  width: 100%;
+}
+@media only screen and (max-width: 960px) {
+  .swimManWrapper {
+    height: 505.53px;
+    background-position: left;
+  }
+  .swimParent {
+    height: 77px;
+    width: 108px;
+    top: 73px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .swimManWrapper {
+    height: 488px;
+    background-position: 0%;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .swimManWrapper {
+    height: 488px;
+    background-position: 8%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .swimManWrapper {
+    height: 488px;
+    background-position: 10%;
+  }
+}
+/*! swim Man Wrapper end */
+
+/*! form section start */
+.formsectionWrapper {
+  height: 921px;
+  position: relative;
+}
+.formsectionWrapper h2 {
+  position: absolute;
+  top: 144px;
+  left: 12%;
+}
+.formsectionWrapper h2 span {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #004481;
+  display: block;
+}
+.formsectionWrapper p {
+  position: absolute;
+  left: 12%;
+  top: 278px;
+  width: 685px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 34px;
+  color: #0a0a0a;
+}
+
+.formAndSide {
+  position: absolute;
+  top: 430px;
+  left: 12%;
+  display: flex;
+  gap: 100px;
+}
+
+.formAndSide form .formInputParent {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+}
+.formAndSide form label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0a0a0a;
+}
+.formAndSide form input {
+  padding: 20px 12px;
+  width: 301px;
+  height: 59px;
+  background: #ffffff;
+  border: 1px solid #949494;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.formAndSide form input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0a0a0a;
+  opacity: 0.2;
+}
+.formInputParent button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  width: 138px;
+  height: 59px;
+  background: #0a0a0a;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+.formInputParent button:hover {
+  background: #004481;
+}
+/* -- */
+.form-side {
+  margin: 20px 0;
+  padding-top: 5px;
+}
+.form-side-inner {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-decoration: none;
+  gap: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #0a0a0a;
+  margin: 15px 0;
+}
+.form-side-img-span {
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-side-img-span img {
+  width: 100%;
+}
+
+.rebornImg {
+  position: absolute;
+  height: 597px;
+  width: 597px;
+  right: 62px;
+  top: 149px;
+  z-index: -1;
+}
+@media only screen and (max-width: 960px) {
+  .formsectionWrapper {
+    height: 562.31px;
+  }
+  .formsectionWrapper h2 {
+    position: absolute;
+    top: 107px;
+    left: 64px;
+  }
+
+  .formsectionWrapper p {
+    left: 64px;
+    top: 220px;
+    width: 460px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .formAndSide {
+    position: absolute;
+    top: 327px;
+    left: 64px;
+    display: flex;
+    gap: 50px;
+  }
+
+  .formAndSide form .formInputParent {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+  }
+  .formAndSide form label {
+    font-size: 8.5px;
+    line-height: 10px;
+  }
+  .formAndSide form input {
+    padding: 12px 7px;
+    width: 183.77px;
+    height: 36.42px;
+  }
+
+  .formAndSide form input::placeholder {
+    font-size: 9.76867px;
+    line-height: 12px;
+  }
+  .formInputParent button {
+    width: 84px;
+    height: 36px;
+    padding: 4px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .formInputParent button:hover {
+    background: #004481;
+  }
+  /* -- */
+  .form-side {
+    padding-top: 5px;
+  }
+  .form-side-inner {
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .form-side-img-span {
+    width: 15px;
+  }
+
+  .rebornImg {
+    height: 364px;
+    width: 364px;
+    right: 60px;
+    top: 118px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .formsectionWrapper {
+    height: 1119px;
+  }
+  .formsectionWrapper h2 {
+    top: 80px;
+    left: 19px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .formsectionWrapper p {
+    left: 0px;
+    padding: 0 19px;
+    top: 230px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .formAndSide {
+    top: 327px;
+    left: 0px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 0 19px;
+    width: 100%;
+  }
+
+  .formAndSide form .formInputParent {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+  }
+  .formAndSide form label {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .formAndSide form input {
+    padding: 20px 12px;
+    width: 100%;
+    height: 59px;
+  }
+
+  .formAndSide form input::placeholder {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .formInputParent button {
+    width: 138px;
+    height: 59px;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .formInputParent button:hover {
+    background: #004481;
+  }
+  /* -- burada kaldık*/
+  .form-side {
+    padding-top: 0px;
+    margin: 0;
+  }
+  .form-side-inner {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .form-side-img-span {
+    width: 25px;
+  }
+
+  .rebornImg {
+    height: 364px;
+    width: 364px;
+    top: -175px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media only screen and (max-width: 400px) {
+  .formAndSide {
+    top: 360px;
+  }
+}
+
+/*! form section end */
+/*! opsiyon listesi start */
+.optionList {
+  height: 623px;
+  position: relative;
+  background: #004481;
+}
+.optionList h2 {
+  position: absolute;
+  left: 12%;
+  top: 91px;
+
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #ffffff;
+}
+.optionMain {
+  position: absolute;
+  top: 215px;
+  left: 12%;
+  display: flex;
+  gap: 70px;
+}
+.optionImgParent {
+  width: 142px;
+  height: 142px;
+}
+.optionInfo {
+}
+.optionInfo p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+}
+.optionInfo button {
+  position: absolute;
+  width: 180px;
+  height: 59px;
+  padding: 8px;
+  background: #ffffff;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #004481;
+}
+@media only screen and (max-width: 768px) {
+  .optionList {
+    height: 797px;
+  }
+  .optionList h2 {
+    left: 0;
+    padding: 0 19px;
+    top: 78px;
+  }
+  .optionMain {
+    position: absolute;
+    top: 215px;
+    left: 0;
+    padding: 0 19px;
+    gap: 61px;
+    flex-direction: column;
+  }
+
+  .optionInfo {
+    flex-direction: column;
+  }
+}
+
+/* --------modal------ */
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 900px !important;
+  }
+}
+.modal-title {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #004481;
+}
+
+.table-head-custom-css tr {
+  background: #004481;
+}
+table th {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 130%;
+  color: #ffffff;
+}
+table td {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 130%;
+  color: #0a0a0a;
+}
+.table-bottom-info p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 130%;
+  color: #0a0a0a;
+}
+/*! opsiyon listesi end */
